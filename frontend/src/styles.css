@@ -64,10 +64,6 @@ main {
 	padding: 12px;
 }
 
-.panel {
-	margin-bottom: 16px;
-}
-
 	.panel h2 {
 		margin-top: 0;
 	}
@@ -88,6 +84,11 @@ button {
 	color: #fff;
 	cursor: pointer;
 }
+
+	button.ghost {
+		background: #fff;
+		color: var(--garnet);
+	}
 
 	button.chip {
 		background: #fff;
@@ -124,10 +125,35 @@ button {
 	border-top: 1px solid var(--line);
 }
 
+.note {
+	margin-top: 12px;
+	padding: 8px 10px;
+	border-radius: 4px;
+}
+
+	.note.sent {
+		background: #e8f4ec;
+		color: #1d6b3a;
+	}
+
+	.note.blocked {
+		background: #fdf1de;
+		color: #9a5b00;
+	}
+
 .error, .loading {
 	padding: 24px;
 }
 
 .error {
 	color: #9b1c1c;
+}
+
+input[type="text"], input:not([type]) {
+	font: inherit;
+	padding: 6px 10px;
+	border: 1px solid var(--line);
+	border-radius: 4px;
+	flex: 1;
+	min-width: 160px;
 }
