@@ -19,7 +19,7 @@ The client wants personalization that is useful and not "creepy": explain recomm
 The agents are rule-based, not an LLM. That keeps the demo free, predictable, and easy to explain.
 
 ## Tools and libraries, and why I used them
-*|Tool|What it is|Why I used it**
+*|Tool|What it is|Why I used it*
 * React 18 | Builds the storefront UI with components and state (`useState`, `useEffect`) | Our team's chosen frontend |
 * Vite | Dev server and build tool for React | Fast setup and the current standard over Create React App |
 * @vitejs/plugin-react | Lets Vite compile JSX | Required for React in Vite |
