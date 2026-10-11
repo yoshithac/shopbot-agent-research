@@ -62,7 +62,7 @@ To reset the demo, stop the API and delete `backend/retail-demo.db`. It is recre
 - The agents use simple rules, so a next step is an LLM-backed version through **Azure OpenAI**.
 - The database is created with `EnsureCreated`, so real EF Core migrations would be a better approach.
 - The client's Engagement and Guardrail agents (cart reminders with frequency caps) are not built yet.
-- Deployment to Azure was out of scope for this milestone, and also wanted to save credits for real capstone project.
+- Deployment to Azure was out of scope for this milestone, also wanted to save credits for real capstone project.
 
 ## AI assistance
 I used Claude to help plan and learn this project, then I researched, ran, tested, and modified it myself.
